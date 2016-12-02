@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="view_customer_form_inherited" model="ir.ui.view">
+            <field name="name">view.res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                <field name="phone" position="after">
+                    <field name="supplier_id" attrs="{'invisible':[('customer','=',True)]}"/>
+                    <field name="customer_id" attrs="{'invisible':[('customer','=',False)]}"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
