@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="seq_type_customer_id" model="ir.sequence">
+            <field name="name">Customer ID</field>
+            <field name="code">res.partner.customer</field>
+        </record>
+
+        <record id="seq_type_vendor_id" model="ir.sequence">
+            <field name="name">Vendor ID</field>
+            <field name="code">res.partner.supplier</field>
+        </record>
+
+    </data>
+</openerp>
