@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    	<record model="ir.ui.view" id="product_group_view">
+            <field name="name">product.template.grouped.form</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view" />
+            <field name="priority" eval="20"/>
+            <field name="arch" type="xml">
+				<xpath expr="//div[@name='options']" position="inside">
+                    <div>
+	                    <field name="grouped" eval="False"/>
+	                    <label for="grouped"/>
+	                </div>
+                </xpath>
+                <xpath expr="//field[@name='active']" position="after">
+                    
+                        <field name="parent_id" attrs="{'invisible': [('product_variant_count','!=', 1)]}"/>
+        	            <field name="group_product" widget="many2many_tags" attrs="{'invisible': [('grouped','!=',True)]}"/>
+                    
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>
