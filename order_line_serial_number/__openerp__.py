@@ -9,7 +9,7 @@
         This Module Adds Serial Numbers to order Lines in Sales orders and in Purchase orders Dynamically After the Products added and Saved.
     """,
 
-    'author': "Techspawn Solutions Pvt. Ltd.",
+    'author': "Techspawn Solutions",
     'website': "http://www.techspawn.com",
 
     'category': 'Others',
