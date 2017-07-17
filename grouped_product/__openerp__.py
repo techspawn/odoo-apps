@@ -18,7 +18,7 @@
 #
 ##############################################################################
 {
-    'name': "Grouped Product",
+    'name': "Product Bundle",
 
     'summary': """
         Module is used to create grouped product in odoo.""",
