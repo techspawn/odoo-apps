@@ -1,0 +1,63 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* warehouse_stock_restrictions
+#	* translated by LANDOO, www.landoo.es
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-04 20:24+0000\n"
+"PO-Revision-Date: 2017-11-04 20:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.ui.view,arch_db:warehouse_stock_restrictions.view_location_security_users_form
+msgid "Allowed Stock Locations"
+msgstr "Ubicaciones permitidas"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.model.fields,field_description:warehouse_stock_restrictions.field_res_users_default_picking_type_ids
+msgid "Default Warehouse Operations"
+msgstr "Operaciones de almacén por defecto"
+
+#. module: warehouse_stock_restrictions
+#: code:addons/warehouse_stock_restrictions/stock.py:33
+#, python-format
+msgid "Invalid Location. You cannot process this move since you do not control the location \"%s\". Please contact your Adminstrator."
+msgstr "Ubicación inválida. No puedes procesar este movimiento por no tener control de la ubicación \"%s\". Por favor, contacta con tu Administrador."
+
+#. module: warehouse_stock_restrictions
+#: model:ir.ui.view,arch_db:warehouse_stock_restrictions.view_location_security_users_form
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.model.fields,field_description:warehouse_stock_restrictions.field_res_users_restrict_locations
+msgid "Restrict Location"
+msgstr "Restricciones de ubicación"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.model.fields,field_description:warehouse_stock_restrictions.field_res_users_stock_location_ids
+msgid "Stock Locations"
+msgstr "Ubicaciones de almacén"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.model,name:warehouse_stock_restrictions.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de existencias"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.model,name:warehouse_stock_restrictions.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: warehouse_stock_restrictions
+#: model:ir.ui.view,arch_db:warehouse_stock_restrictions.view_users_form
+msgid "Warehouse Restrictions"
+msgstr "Restricciones de almacén"
+
