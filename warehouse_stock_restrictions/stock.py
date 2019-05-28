@@ -29,6 +29,8 @@ class stock_move(models.Model):
         if self.state == 'draft':
             return True
         user_locations = self.env.user.stock_location_ids
+        print(user_locations)
+        print("Checking access %s" %self.env.user.default_picking_type_ids)
         if self.env.user.restrict_locations:
             message = _(
                 'Invalid Location. You cannot process this move since you do '

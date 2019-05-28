@@ -30,15 +30,16 @@
 
     'author': "Techspawn Solutions",
     'website': "http://www.techspawn.com",
-
+    'license':'OPL-1',	
     'category': 'Warehouse',
     'version': '0.2',
-
+    'images': ['static/description/main.png'],
     'depends': ['base', 'stock'],
 
     'data': [
 
         'users_view.xml',
         'security/security.xml',
+        # 'security/ir.model.access.csv',
     ],
 }
